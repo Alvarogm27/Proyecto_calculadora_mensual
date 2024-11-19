@@ -1,3 +1,4 @@
+<<<<<<< HEAD
 <!DOCTYPE html>
 <html lang="en">
 <head>
@@ -37,4 +38,45 @@
         <input type="submit" value="ENVIAR">
     </form>
 </body>
+=======
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Calculate your monthly costs</title>
+    <link rel="stylesheet" href="style.css">
+</head>
+<body>
+    <h1>¿Estas pensando en ahorrar?</h1>
+    <h2>Introduce tus ingresos y gastos mensuales para saber cuanto ahorras</h2>
+    
+    <form action="calculation.php" method="post">
+        <fieldset>
+            <legend>
+                Ingresos
+            </legend>
+            <div><label for="ingresos"><input type="number" id="ingresos" name="ingresos" required> </label></div>
+        </fieldset>
+        <fieldset>
+            <legend>
+                Gastos
+            </legend>
+            <div>
+            <label for="alquiler">Alquiler: <input type="number" id="alquiler" name="alquiler" required> </label>
+            </div>
+            <div>
+                <label for="comida">Comida: <input type="number" id="comida" name="comida" required> </label>
+            </div>
+            <div>
+                <label for="transporte">Transporte: <input type="number" name="transporte" id="transporte" required> </label>
+            </div>
+            <div>
+                <label for="entretenimiento">Entertenimiento: <input type="number" name="entretenimiento" id="entretenimiento" required> </label>
+            </div>
+        </fieldset>
+        <input type="submit" value="ENVIAR">
+    </form>
+</body>
+>>>>>>> 0990920702543f0b596451a320f73ba724c9f19c
 </html>
